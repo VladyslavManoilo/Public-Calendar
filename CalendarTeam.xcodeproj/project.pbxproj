@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B0DE6ED2B04E927007BADA3 /* CalendarTeamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE6EC2B04E927007BADA3 /* CalendarTeamApp.swift */; };
+		8B0DE6EF2B04E927007BADA3 /* TeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE6EE2B04E927007BADA3 /* TeamView.swift */; };
+		8B0DE6F12B04E929007BADA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DE6F02B04E929007BADA3 /* Assets.xcassets */; };
+		8B0DE6F42B04E929007BADA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DE6F32B04E929007BADA3 /* Preview Assets.xcassets */; };
+		8B0DE6FC2B04E9AE007BADA3 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE6FB2B04E9AE007BADA3 /* HeaderView.swift */; };
+		8B0DE6FF2B04EB54007BADA3 /* Image+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE6FE2B04EB54007BADA3 /* Image+Assets.swift */; };
+		8B0DE7012B04EEF6007BADA3 /* Color+Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7002B04EEF6007BADA3 /* Color+Assets.swift */; };
+		8B0DE7032B04F167007BADA3 /* TeamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7022B04F167007BADA3 /* TeamViewModel.swift */; };
+		8B0DE7082B04F419007BADA3 /* Font+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7072B04F419007BADA3 /* Font+Custom.swift */; };
+		8B0DE70E2B04F837007BADA3 /* TeamListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE70D2B04F837007BADA3 /* TeamListView.swift */; };
+		8B0DE7102B04F874007BADA3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE70F2B04F874007BADA3 /* CalendarView.swift */; };
+		8B0DE7142B04F946007BADA3 /* LinkButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7132B04F946007BADA3 /* LinkButtonStyle.swift */; };
+		8B0DE7262B050115007BADA3 /* PlusJakartaSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DE7252B050115007BADA3 /* PlusJakartaSans-Medium.ttf */; };
+		8B0DE7282B0502B9007BADA3 /* WaitlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7272B0502B9007BADA3 /* WaitlistView.swift */; };
+		8B0DE72A2B050307007BADA3 /* SharedTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7292B050307007BADA3 /* SharedTypes.swift */; };
+		8B0DE72C2B050840007BADA3 /* Date+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE72B2B050840007BADA3 /* Date+Additions.swift */; };
+		8B0DE7302B050C17007BADA3 /* ImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE72F2B050C17007BADA3 /* ImageButton.swift */; };
+		8B0DE7322B050E1F007BADA3 /* CapsulePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7312B050E1F007BADA3 /* CapsulePicker.swift */; };
+		8B0DE73D2B052D05007BADA3 /* GTWalsheimPro-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DE73A2B052D05007BADA3 /* GTWalsheimPro-Medium.ttf */; };
+		8B0DE73E2B052D05007BADA3 /* GTWalsheimPro-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DE73B2B052D05007BADA3 /* GTWalsheimPro-Regular.ttf */; };
+		8B0DE7402B053455007BADA3 /* GTWalsheimPro-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0DE73F2B053455007BADA3 /* GTWalsheimPro-Light.ttf */; };
+		8B0DE7422B056D8B007BADA3 /* TeamMockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7412B056D8B007BADA3 /* TeamMockData.swift */; };
+		8B0DE7452B05706B007BADA3 /* CalendarEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7442B05706B007BADA3 /* CalendarEvent.swift */; };
+		8B0DE7472B05725C007BADA3 /* CalendarUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE7462B05725C007BADA3 /* CalendarUser.swift */; };
+		8B0DE74B2B0575A5007BADA3 /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE74A2B0575A5007BADA3 /* UserView.swift */; };
+		8B0DE74D2B05929C007BADA3 /* CalendarEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0DE74C2B05929C007BADA3 /* CalendarEventView.swift */; };
+		8BAC5DFE2B05999B002FF734 /* CalendarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC5DFD2B05999B002FF734 /* CalendarViewModel.swift */; };
+		8BAC5E002B060EE0002FF734 /* ObliqueLinesShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC5DFF2B060EE0002FF734 /* ObliqueLinesShape.swift */; };
+		8BAC5E022B06289F002FF734 /* TeamListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC5E012B06289F002FF734 /* TeamListViewModel.swift */; };
+		8BAC5E042B063329002FF734 /* TeamListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC5E032B063329002FF734 /* TeamListItemView.swift */; };
+		8BAC5E072B063ADA002FF734 /* Locale+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BAC5E062B063ADA002FF734 /* Locale+Additions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8B0DE6E92B04E927007BADA3 /* CalendarTeam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarTeam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0DE6EC2B04E927007BADA3 /* CalendarTeamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarTeamApp.swift; sourceTree = "<group>"; };
+		8B0DE6EE2B04E927007BADA3 /* TeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamView.swift; sourceTree = "<group>"; };
+		8B0DE6F02B04E929007BADA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B0DE6F32B04E929007BADA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B0DE6FB2B04E9AE007BADA3 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		8B0DE6FE2B04EB54007BADA3 /* Image+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Assets.swift"; sourceTree = "<group>"; };
+		8B0DE7002B04EEF6007BADA3 /* Color+Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Assets.swift"; sourceTree = "<group>"; };
+		8B0DE7022B04F167007BADA3 /* TeamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamViewModel.swift; sourceTree = "<group>"; };
+		8B0DE7072B04F419007BADA3 /* Font+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Custom.swift"; sourceTree = "<group>"; };
+		8B0DE70D2B04F837007BADA3 /* TeamListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListView.swift; sourceTree = "<group>"; };
+		8B0DE70F2B04F874007BADA3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		8B0DE7132B04F946007BADA3 /* LinkButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkButtonStyle.swift; sourceTree = "<group>"; };
+		8B0DE71F2B04FEF3007BADA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B0DE7252B050115007BADA3 /* PlusJakartaSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PlusJakartaSans-Medium.ttf"; sourceTree = "<group>"; };
+		8B0DE7272B0502B9007BADA3 /* WaitlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitlistView.swift; sourceTree = "<group>"; };
+		8B0DE7292B050307007BADA3 /* SharedTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTypes.swift; sourceTree = "<group>"; };
+		8B0DE72B2B050840007BADA3 /* Date+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Additions.swift"; sourceTree = "<group>"; };
+		8B0DE72F2B050C17007BADA3 /* ImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageButton.swift; sourceTree = "<group>"; };
+		8B0DE7312B050E1F007BADA3 /* CapsulePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsulePicker.swift; sourceTree = "<group>"; };
+		8B0DE73A2B052D05007BADA3 /* GTWalsheimPro-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Medium.ttf"; sourceTree = "<group>"; };
+		8B0DE73B2B052D05007BADA3 /* GTWalsheimPro-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Regular.ttf"; sourceTree = "<group>"; };
+		8B0DE73F2B053455007BADA3 /* GTWalsheimPro-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GTWalsheimPro-Light.ttf"; sourceTree = "<group>"; };
+		8B0DE7412B056D8B007BADA3 /* TeamMockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamMockData.swift; sourceTree = "<group>"; };
+		8B0DE7442B05706B007BADA3 /* CalendarEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEvent.swift; sourceTree = "<group>"; };
+		8B0DE7462B05725C007BADA3 /* CalendarUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarUser.swift; sourceTree = "<group>"; };
+		8B0DE74A2B0575A5007BADA3 /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
+		8B0DE74C2B05929C007BADA3 /* CalendarEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarEventView.swift; sourceTree = "<group>"; };
+		8BAC5DFD2B05999B002FF734 /* CalendarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewModel.swift; sourceTree = "<group>"; };
+		8BAC5DFF2B060EE0002FF734 /* ObliqueLinesShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObliqueLinesShape.swift; sourceTree = "<group>"; };
+		8BAC5E012B06289F002FF734 /* TeamListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListViewModel.swift; sourceTree = "<group>"; };
+		8BAC5E032B063329002FF734 /* TeamListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamListItemView.swift; sourceTree = "<group>"; };
+		8BAC5E062B063ADA002FF734 /* Locale+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Locale+Additions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B0DE6E62B04E927007BADA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B0DE6E02B04E927007BADA3 = {
+			isa = PBXGroup;
+			children = (
+				8B0DE6EB2B04E927007BADA3 /* CalendarTeam */,
+				8B0DE6EA2B04E927007BADA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B0DE6EA2B04E927007BADA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE6E92B04E927007BADA3 /* CalendarTeam.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B0DE6EB2B04E927007BADA3 /* CalendarTeam */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE71F2B04FEF3007BADA3 /* Info.plist */,
+				8B0DE7112B04F925007BADA3 /* Components */,
+				8B0DE6FD2B04EB3B007BADA3 /* Extensions */,
+				8B0DE7042B04F18D007BADA3 /* Modules */,
+				8B0DE7152B04FC7B007BADA3 /* Resources */,
+				8B0DE6EC2B04E927007BADA3 /* CalendarTeamApp.swift */,
+				8B0DE7292B050307007BADA3 /* SharedTypes.swift */,
+				8B0DE6F02B04E929007BADA3 /* Assets.xcassets */,
+				8B0DE6F22B04E929007BADA3 /* Preview Content */,
+			);
+			path = CalendarTeam;
+			sourceTree = "<group>";
+		};
+		8B0DE6F22B04E929007BADA3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE6F32B04E929007BADA3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B0DE6FD2B04EB3B007BADA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7002B04EEF6007BADA3 /* Color+Assets.swift */,
+				8B0DE72B2B050840007BADA3 /* Date+Additions.swift */,
+				8B0DE7072B04F419007BADA3 /* Font+Custom.swift */,
+				8B0DE6FE2B04EB54007BADA3 /* Image+Assets.swift */,
+				8BAC5E062B063ADA002FF734 /* Locale+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B0DE7042B04F18D007BADA3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7052B04F195007BADA3 /* Team */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		8B0DE7052B04F195007BADA3 /* Team */ = {
+			isa = PBXGroup;
+			children = (
+				8BAC5E052B063330002FF734 /* TeamList */,
+				8B0DE6EE2B04E927007BADA3 /* TeamView.swift */,
+				8B0DE7022B04F167007BADA3 /* TeamViewModel.swift */,
+				8B0DE7412B056D8B007BADA3 /* TeamMockData.swift */,
+			);
+			path = Team;
+			sourceTree = "<group>";
+		};
+		8B0DE7112B04F925007BADA3 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7432B057055007BADA3 /* Calendar */,
+				8B0DE7122B04F934007BADA3 /* ButtonStyles */,
+				8B0DE6FB2B04E9AE007BADA3 /* HeaderView.swift */,
+				8B0DE7272B0502B9007BADA3 /* WaitlistView.swift */,
+				8B0DE72F2B050C17007BADA3 /* ImageButton.swift */,
+				8B0DE7312B050E1F007BADA3 /* CapsulePicker.swift */,
+				8B0DE74A2B0575A5007BADA3 /* UserView.swift */,
+				8BAC5DFF2B060EE0002FF734 /* ObliqueLinesShape.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		8B0DE7122B04F934007BADA3 /* ButtonStyles */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7132B04F946007BADA3 /* LinkButtonStyle.swift */,
+			);
+			path = ButtonStyles;
+			sourceTree = "<group>";
+		};
+		8B0DE7152B04FC7B007BADA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7162B04FC97007BADA3 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8B0DE7162B04FC97007BADA3 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7222B0500D1007BADA3 /* PlusJakartaSans */,
+				8B0DE7172B04FC9C007BADA3 /* GTWalsheimPro */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8B0DE7172B04FC9C007BADA3 /* GTWalsheimPro */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE73F2B053455007BADA3 /* GTWalsheimPro-Light.ttf */,
+				8B0DE73A2B052D05007BADA3 /* GTWalsheimPro-Medium.ttf */,
+				8B0DE73B2B052D05007BADA3 /* GTWalsheimPro-Regular.ttf */,
+			);
+			path = GTWalsheimPro;
+			sourceTree = "<group>";
+		};
+		8B0DE7222B0500D1007BADA3 /* PlusJakartaSans */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7252B050115007BADA3 /* PlusJakartaSans-Medium.ttf */,
+			);
+			path = PlusJakartaSans;
+			sourceTree = "<group>";
+		};
+		8B0DE7432B057055007BADA3 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE74E2B0592A1007BADA3 /* Models */,
+				8B0DE70F2B04F874007BADA3 /* CalendarView.swift */,
+				8B0DE74C2B05929C007BADA3 /* CalendarEventView.swift */,
+				8BAC5DFD2B05999B002FF734 /* CalendarViewModel.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		8B0DE74E2B0592A1007BADA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B0DE7442B05706B007BADA3 /* CalendarEvent.swift */,
+				8B0DE7462B05725C007BADA3 /* CalendarUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8BAC5E052B063330002FF734 /* TeamList */ = {
+			isa = PBXGroup;
+			children = (
+				8BAC5E012B06289F002FF734 /* TeamListViewModel.swift */,
+				8B0DE70D2B04F837007BADA3 /* TeamListView.swift */,
+				8BAC5E032B063329002FF734 /* TeamListItemView.swift */,
+			);
+			path = TeamList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B0DE6E82B04E927007BADA3 /* CalendarTeam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B0DE6F72B04E929007BADA3 /* Build configuration list for PBXNativeTarget "CalendarTeam" */;
+			buildPhases = (
+				8B0DE6E52B04E927007BADA3 /* Sources */,
+				8B0DE6E62B04E927007BADA3 /* Frameworks */,
+				8B0DE6E72B04E927007BADA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalendarTeam;
+			productName = CalendarTeam;
+			productReference = 8B0DE6E92B04E927007BADA3 /* CalendarTeam.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B0DE6E12B04E927007BADA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8B0DE6E82B04E927007BADA3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 8B0DE6E42B04E927007BADA3 /* Build configuration list for PBXProject "CalendarTeam" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B0DE6E02B04E927007BADA3;
+			productRefGroup = 8B0DE6EA2B04E927007BADA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B0DE6E82B04E927007BADA3 /* CalendarTeam */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B0DE6E72B04E927007BADA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0DE73D2B052D05007BADA3 /* GTWalsheimPro-Medium.ttf in Resources */,
+				8B0DE6F42B04E929007BADA3 /* Preview Assets.xcassets in Resources */,
+				8B0DE7262B050115007BADA3 /* PlusJakartaSans-Medium.ttf in Resources */,
+				8B0DE73E2B052D05007BADA3 /* GTWalsheimPro-Regular.ttf in Resources */,
+				8B0DE6F12B04E929007BADA3 /* Assets.xcassets in Resources */,
+				8B0DE7402B053455007BADA3 /* GTWalsheimPro-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B0DE6E52B04E927007BADA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B0DE72A2B050307007BADA3 /* SharedTypes.swift in Sources */,
+				8B0DE6EF2B04E927007BADA3 /* TeamView.swift in Sources */,
+				8BAC5E022B06289F002FF734 /* TeamListViewModel.swift in Sources */,
+				8B0DE6FC2B04E9AE007BADA3 /* HeaderView.swift in Sources */,
+				8B0DE74B2B0575A5007BADA3 /* UserView.swift in Sources */,
+				8B0DE6FF2B04EB54007BADA3 /* Image+Assets.swift in Sources */,
+				8B0DE74D2B05929C007BADA3 /* CalendarEventView.swift in Sources */,
+				8BAC5DFE2B05999B002FF734 /* CalendarViewModel.swift in Sources */,
+				8BAC5E002B060EE0002FF734 /* ObliqueLinesShape.swift in Sources */,
+				8B0DE72C2B050840007BADA3 /* Date+Additions.swift in Sources */,
+				8B0DE7452B05706B007BADA3 /* CalendarEvent.swift in Sources */,
+				8B0DE7472B05725C007BADA3 /* CalendarUser.swift in Sources */,
+				8B0DE70E2B04F837007BADA3 /* TeamListView.swift in Sources */,
+				8B0DE7012B04EEF6007BADA3 /* Color+Assets.swift in Sources */,
+				8BAC5E042B063329002FF734 /* TeamListItemView.swift in Sources */,
+				8B0DE7082B04F419007BADA3 /* Font+Custom.swift in Sources */,
+				8B0DE7422B056D8B007BADA3 /* TeamMockData.swift in Sources */,
+				8B0DE7302B050C17007BADA3 /* ImageButton.swift in Sources */,
+				8B0DE6ED2B04E927007BADA3 /* CalendarTeamApp.swift in Sources */,
+				8B0DE7142B04F946007BADA3 /* LinkButtonStyle.swift in Sources */,
+				8BAC5E072B063ADA002FF734 /* Locale+Additions.swift in Sources */,
+				8B0DE7322B050E1F007BADA3 /* CapsulePicker.swift in Sources */,
+				8B0DE7032B04F167007BADA3 /* TeamViewModel.swift in Sources */,
+				8B0DE7102B04F874007BADA3 /* CalendarView.swift in Sources */,
+				8B0DE7282B0502B9007BADA3 /* WaitlistView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8B0DE6F52B04E929007BADA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B0DE6F62B04E929007BADA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B0DE6F82B04E929007BADA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalendarTeam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarTeam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calendarteam.app.CalendarTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B0DE6F92B04E929007BADA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CalendarTeam/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CalendarTeam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.calendarteam.app.CalendarTeam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B0DE6E42B04E927007BADA3 /* Build configuration list for PBXProject "CalendarTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0DE6F52B04E929007BADA3 /* Debug */,
+				8B0DE6F62B04E929007BADA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B0DE6F72B04E929007BADA3 /* Build configuration list for PBXNativeTarget "CalendarTeam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B0DE6F82B04E929007BADA3 /* Debug */,
+				8B0DE6F92B04E929007BADA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B0DE6E12B04E927007BADA3 /* Project object */;
+}
